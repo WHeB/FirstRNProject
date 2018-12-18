@@ -1,0 +1,6 @@
+framework module Pods_redPacket {
+  umbrella header "Pods-redPacket-umbrella.h"
+
+  export *
+  module * { export * }
+}
