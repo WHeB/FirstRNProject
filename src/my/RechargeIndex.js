@@ -112,7 +112,6 @@ class RechargeView extends Component {
 
 export default RechargeView;
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -160,7 +159,7 @@ const styles = StyleSheet.create({
   },
 
   footViewStyle: {
-    top: 50,
+    marginTop: 50,
     height: 100,
     justifyContent: 'center',
     alignItems: 'center'

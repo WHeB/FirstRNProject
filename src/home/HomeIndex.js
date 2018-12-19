@@ -20,10 +20,17 @@ class HomeIndex extends Component {
 
   _headView = () => {
     return (
-      <View >
-        <View style={{ height: Tools.safetyHeight() + 20 }}>
+      <View style={{
+        width: Tools.width,
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}>
+        <View style={{
+          height: Tools.safetyHeight() + 20,
+        }}>
         </View>
         <Image
+          resizeMode='contain'
           source={require('../image/homeBanner.png')}
         />
       </View>
@@ -142,7 +149,6 @@ const styles = StyleSheet.create({
   headView: {
     width: Tools.width,
     height: 80,
-    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },

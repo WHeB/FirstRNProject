@@ -40,7 +40,7 @@ class ForgetPsdView extends Component {
           <View style={styles.cellViewStyle}>
             <Text>+86</Text>
             <TextInput
-              style={{ left: 15, width: '80%', height: 30 }}
+              style={{ left: 15, width: '80%', }}
               placeholder='请输入手机号码'
             >
             </TextInput>
@@ -49,7 +49,7 @@ class ForgetPsdView extends Component {
 
           <View style={styles.cellViewStyle}>
             <TextInput
-              style={{ width: '60%', height: 30, }}
+              style={{ width: '60%', }}
               placeholder='请输入手机号码'
             >
             </TextInput>
@@ -68,7 +68,7 @@ class ForgetPsdView extends Component {
 
           <View style={styles.cellViewStyle}>
             <TextInput
-              style={{ width: '90%', height: 30 }}
+              style={{ width: '90%', }}
               placeholder='请设置新的登录密码（6-12位数字或字母）'
             >
             </TextInput>
@@ -77,7 +77,7 @@ class ForgetPsdView extends Component {
 
           <View style={styles.cellViewStyle}>
             <TextInput
-              style={{ width: '90%', height: 30 }}
+              style={{ width: '90%', }}
               placeholder='请确认新的登录密码'
             >
             </TextInput>
